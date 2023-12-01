@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAUITIFUL</title>
+    <link rel="icon" href="img1.jfif">
+    <link rel="stylesheet" type="text/css" href="CSS/all.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .conteiner{
+            width: 100%;
+            height: 100vh;
+            background-image: url(web-3background.png);
+            background-position: center;
+            background-size: cover;
+            padding-left: 5%;
+            padding-right: 5%;
+            box-sizing: border-box;
+            position: relative;
+
+        }
+        .navbar{
+            width:100%;
+            height: 15vh;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            
+        }
+
+       
+        .logo{
+            width: 120px;
+            cursor: pointer;
+        }
+
+       
+        .cart{
+            width: 40px;
+            cursor: pointer;
+            transition: all 0.5s linear;
+        }
+
+        
+
+        .cart:hover{
+            transform: scale(1.5);
+            transition: all 0.5s linear;
+        }
+
+        .nav{
+          flex: 1;
+          padding-left: 60px;
+          flex-wrap: wrap;
+
+
+        }
+
+      
+
+      
+        .nav ul li{
+            display:inline-block;
+            list-style: none;
+            margin: 0px 20px;
+         
+            padding: 10px 20px;
+            transition: all 1s linear;
+            
+        }
+.nav ul li:hover{
+    box-shadow: 0 0 5px #87adfe, 0 0 25px #ff77cd, 0 0 50px #87adfe ,0 0 100px #ff77cd, 0 0 200px #87adfe;
+}
+       
+        .nav ul li a{
+            text-decoration: none;
+            
+        }
+        
+        
+       
+        .content h1{
+            font-size: 60px;
+            font-weight: 100;
+            margin-top: 24px;
+            margin-bottom: 15px;
+            color: #232d60;
+        }
+
+        .content p{
+            font-size: 20px;
+         
+            color: #6a7199;
+        }
+
+        .content{
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+        .content .btn{
+            text-decoration: none;
+            display: inline-block;
+            background: linear-gradient(45deg, #87adfe, #ff77cd);
+            border-radius: 6px;
+            padding: 10px 20px;
+            color: white;
+            box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+        }
+        .arrow-icon{
+            margin-top: 10px ;
+            display: flex;
+            margin-left: 90px;
+
+
+        }
+        .arrow-icon img{
+            margin: 40px;
+            margin-right:5px;
+            width: 50px;
+            height: 50px;
+        }
+        .feature{
+            height: 90%;
+            bottom: 0;
+            right: 30px;
+            position: absolute;
+        }
+        .social-link{
+            transform: rotate(-90deg);
+            position: absolute;
+            left: -80px;
+            bottom: 190px;
+            margin: -10px -100px;
+            
+        }
+        .social-link a{ 
+            text-decoration: none;
+            color: #6a7199;
+            padding: 10px 10px; 
+            display:inline-block;
+          
+          
+           
+            
+        }
+        .fa-solid{
+            padding: 0 7px;
+           color: #ff77cd; 
+           font-size: 20px;
+        }
+
+        .fa-brands{
+          
+           color: #ff77cd; 
+           font-size: 20px;
+           padding: 10px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="navbar">
+            <img src="web-3logo.png"logo" height="70px" width="150px">
+            <div class="nav">
+                <ul>
+                    <li><a href="#"><i class="fa-solid  fa-house-chimney-user fa-beat"></i></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-address-card fa-beat"></i>Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-shirt fa-beat"></i>Collections</a></li>
+                    <li><a href="#"><i class="fa-solid fa-feather-pointed fa-beat"></i>About </a></li>
+                </ul>
+            </div>
+            <img src="web-3cart.png" class="cart">
+
+        </div>
+
+        <div class="content">
+            <a href="" class="btn">2020 Collections</a>
+            <h1>You should always<br> feel pretty</h1>
+            <P>Clothes that are sure to heat up your winter.</P>
+        </div>
+        <div class="arrow-icon">
+            <img src="web-3.png">
+            <img src="web-3next-arrow.png">
+
+        </div>
+
+        <img src="web-3img.png" class="feature">
+
+        <div class="social-link">
+            <a href=""><i class="fa-brands fa-twitter fa-beat"></i>FACEBOOK</a>
+            <a href=""><i class="fa-brands fa-twitter fa-beat"></i>TWITER</a>
+            <a href=""><i class="fa-brands fa-square-instagram fa-beat"></i>INSTAGRAM</a>
+        </div>
+    </div>
+
+</body>
+</html>
